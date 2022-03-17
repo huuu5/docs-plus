@@ -3,7 +3,12 @@ module.exports = {
   lang: 'zh-CN',
   title: '虎哥',
   description: '日常开发技术积累',
-
+  markdown: {
+    code:{
+      lineNumbers: 4
+    }
+      
+  },
   // theme and its config
   theme: '@vuepress/theme-default',
   themeConfig: {
@@ -11,8 +16,17 @@ module.exports = {
     lastUpdated: false,
     contributors: false,
     head: [
-      ['link', { rel: 'icon', sizes: '32x32', href: '/logo.svg' }],
+      ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
+      [
+        "script",
+        {
+          async: true,
+          src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5102445394066813',
+          crossorigin: 'anonymous'
+        }
+      ],
     ],
+    
     navbar: [
       { text: '首页', link: '/', activeMatch: '^/$|^/home/' },
       {
@@ -95,8 +109,9 @@ module.exports = {
     [
       '@vuepress/docsearch',
       {
-        apiKey: '<API_KEY>',
-        indexName: '<INDEX_NAME>',
+        appId: '',
+        apiKey: '',
+        indexName: '',
         locales: {
           '/': {
             placeholder: '搜索文档',

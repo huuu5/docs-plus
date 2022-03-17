@@ -1,8 +1,10 @@
 ---
 home: true
 heroImage: /logo.svg
-actionText: 开始
-actionLink: /macos/
+actions:
+  - text: 开始
+    link: /macos/
+    type: primary
 
 head:
   - - meta

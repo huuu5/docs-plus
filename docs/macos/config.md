@@ -68,7 +68,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-**如果GitHub访问慢，使用该 [下载](/docs/ohmyzsh-install.sh) ，在终端执行该脚本**
+**如果GitHub访问慢，使用该 [下载](/ohmyzsh-install.sh) ，在终端执行该脚本**
 
 ```bash
 # 配置可执行权限
