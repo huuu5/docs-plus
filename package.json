@@ -1,0 +1,20 @@
+{
+  "name": "docs-plus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://gitee.com/huuu5/docs-plus.git",
+  "author": "chenzhenhu",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-docsearch": "^2.0.0-beta.36",
+    "@vuepress/plugin-google-analytics": "^2.0.0-beta.36",
+    "vuepress": "^2.0.0-beta.36",
+    "vuepress-plugin-china-search-console": "^2.0.1",
+    "vuepress-plugin-sitemap2": "^2.0.0-beta.17"
+  }
+}
