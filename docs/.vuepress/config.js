@@ -1,3 +1,4 @@
+const { copyCode } = require("vuepress-plugin-copy-code2");
 module.exports = {
   // site config
   lang: 'zh-CN',
@@ -6,27 +7,33 @@ module.exports = {
   markdown: {
     code:{
       lineNumbers: 4
-    }
-      
+    } 
   },
+  locales: {
+    "/": {
+      lang: "zh-CN",
+    },
+  },
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
+    ['meta', { name: 'keyword', content: 'java,macos,centos' }],
+    ['meta', { name: 'baidu-site-verification', content: 'code-YjTEAdmcww' }],
+    ['meta', { name: 'baidu-site-verification', content: 'code-dj8n33plFR' }],
+    [
+      'script',
+      {
+        async: true,
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5102445394066813',
+        crossorigin: 'anonymous'
+      }
+    ],
+  ],
   // theme and its config
   theme: '@vuepress/theme-default',
   themeConfig: {
     logo: '/logo.svg',
     lastUpdated: false,
     contributors: false,
-    head: [
-      ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
-      [
-        "script",
-        {
-          async: true,
-          src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5102445394066813',
-          crossorigin: 'anonymous'
-        }
-      ],
-    ],
-    
     navbar: [
       { text: '首页', link: '/', activeMatch: '^/$|^/home/' },
       {
@@ -136,6 +143,9 @@ module.exports = {
       {
         baiduId: '4235982182d6a33976652d6af8ea9560'
       }
-    ]
+    ],
+    copyCode({
+      
+    })
   ],
 }

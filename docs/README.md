@@ -6,12 +6,6 @@ actions:
     link: /macos/
     type: primary
 
-head:
-  - - meta
-    - name: keywords
-      content: java,macos,centos
-
-
-
-footer:  Copyright © 2022-present 虎哥
+footer:  Copyright © 2022-present 虎哥 苏ICP备15031546号-1
 ---
+
