@@ -1,13 +1,13 @@
-# Getting Started
+# 开始
 
-:::warning WARNING
+:::warning 警告
 本文档只适用于CentOS 7，其他版本请自行Google或者百度
 :::
 
-:::warning WARNING
+:::warning 警告
 本文档只适用于CentOS 7，其他版本请自行Google或者百度
 :::
 
-:::warning WARNING
+:::warning 警告
 本文档只适用于CentOS 7，其他版本请自行Google或者百度
 :::

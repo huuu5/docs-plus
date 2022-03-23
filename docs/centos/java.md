@@ -7,14 +7,14 @@
 上传文件到服务器，并解压至 `/usr/local/java`
 
 ```bash
-$ sudo mkdir -p /usr/local/java
-$ sudo tar -zxvf server-jre-8u321-linux-x64.tar.gz -C /usr/local/java
+sudo mkdir -p /usr/local/java
+sudo tar -zxvf server-jre-8u321-linux-x64.tar.gz -C /usr/local/java
 ```
 
 ## 配置环境变量
 
 ```bash
-$ sudo vim /etc/profile
+sudo vim /etc/profile
 ```
 
 复制下面内容到最后一行

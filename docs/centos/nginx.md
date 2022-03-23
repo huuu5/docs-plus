@@ -1,18 +1,18 @@
-# 安装Nginx
+# 安装 Nginx
 
 
 
 ## 1.安装准备
 
 ```bash
-$ sudo yum install yum-utils
+sudo yum install -y yum-utils
 ```
 
 ## 2.创建yum repository
 
 ```bash {1-2}
 # 创建 nginx 仓库
-$ sudo vim /etc/yum.repos.d/nginx.repo
+sudo vim /etc/yum.repos.d/nginx.repo
 # 粘贴下面内容
 [nginx-stable]
 name=nginx stable repo
@@ -34,23 +34,23 @@ module_hotfixes=true
 ## 3.设置 nginx 安装包
 
 ```bash
-$ sudo yum-config-manager --enable nginx-mainline
+sudo yum-config-manager --enable nginx-mainline
 ```
 
 ## 4.安装Nginx
 
 ```bash
-$ sudo yum install nginx
+sudo yum install  -y nginx
 ```
 
 ## 5.启动Nginx
 
 ```bash
-$ sudo systemctl start nginx
+sudo systemctl start nginx
 # 设置开机启动
-$ sudo systemctl enable nginx
+sudo systemctl enable nginx
 ```
 
 在浏览器输入服务器地址访问
 
-![image-20210410155231599](https://gitee.com/huuu5/image/raw/master/blog/2021/04/image-20210410155231599.png)
+![image-20210410155231599](https://gitee.com/mhxs5555/image/raw/master/blog/2021/04/image-20210410155231599.png)

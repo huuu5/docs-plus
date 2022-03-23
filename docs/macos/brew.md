@@ -12,7 +12,7 @@
 /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
 ```
 
-![image-20220306181322578](https://gitee.com/huuu5/image/raw/master/docs/2022/03/202203061813599.png)
+![image-20220306181322578](https://gitee.com/mhxs5555/image/raw/master/docs/2022/03/202203061813599.png)
 
 :::tip 提示
 

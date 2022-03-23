@@ -21,7 +21,7 @@ brew install node@16
 
 [官网下载](https://nodejs.org/en/)
 
-![image-20220306204529962](https://gitee.com/huuu5/image/raw/master/docs/2022-03/202203062045021.png)
+![image-20220306204529962](https://gitee.com/mhxs5555/image/raw/master/docs/2022-03/202203062045021.png)
 
 双击运行安装包，等待安装完成即可
 

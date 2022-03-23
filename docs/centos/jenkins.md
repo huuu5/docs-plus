@@ -1,4 +1,4 @@
-# Jenkins
+# 安装 Jenkins
 
 ## 安装
 
@@ -67,20 +67,20 @@ docker exec jenkins cat /var/jenkins_home/secrets/initialAdminPassword
 cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
 
-![image-20220313190358522](https://gitee.com/huuu5/image/raw/master/docs/2022/03/202203131903551.png)
+![image-20220313190358522](https://gitee.com/mhxs5555/image/raw/master/docs/2022/03/202203131903551.png)
 
 ### 安装插件，点击 `安装推荐的插件`。
 
-![image-20220313193716462](https://gitee.com/huuu5/image/raw/master/docs/2022/03/202203131937503.png)
+![image-20220313193716462](https://gitee.com/mhxs5555/image/raw/master/docs/2022/03/202203131937503.png)
 
 
 
-![image-20220313190709684](https://gitee.com/huuu5/image/raw/master/docs/2022/03/202203131907713.png)
+![image-20220313190709684](https://gitee.com/mhxs5555/image/raw/master/docs/2022/03/202203131907713.png)
 
 ### 创建管理员账户
 
 点击 `保存并完成` 进入系统
 
-![image-20220313192654968](https://gitee.com/huuu5/image/raw/master/docs/2022/03/202203131926004.png)
+![image-20220313192654968](https://gitee.com/mhxs5555/image/raw/master/docs/2022/03/202203131926004.png)
 
-![image-20220313203627608](https://gitee.com/huuu5/image/raw/master/docs/2022/03/202203132036655.png)
+![image-20220313203627608](https://gitee.com/mhxs5555/image/raw/master/docs/2022/03/202203132036655.png)

@@ -1,3 +1,0 @@
-Sitemap: https://chenzhenhu.com/sitemap.xml
-
-User-agent: *

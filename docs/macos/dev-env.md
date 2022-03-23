@@ -24,7 +24,7 @@ sudo spctl --master-disable
 /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
 ```
 
-![image-20220305214336185](https://gitee.com/huuu5/image/raw/master/docs/2022-03/202203052143224.png)
+![image-20220305214336185](https://gitee.com/mhxs5555/image/raw/master/docs/2022-03/202203052143224.png)
 
 :::tip TIP
 
@@ -109,11 +109,11 @@ Java HotSpot(TM) 64-Bit Server VM (build 17.0.1+12-LTS-39, mixed mode, sharing)
 
 2. 安装插件，Preferences(首选项) -> Plugins(插件) ->  Install Plugin from Disk(从磁盘安装插件) , 安装完成后 点击OK(确定)
 
-![image-20220305224754935](https://gitee.com/huuu5/image/raw/master/docs/2022-03/202203052247985.png)
+![image-20220305224754935](https://gitee.com/mhxs5555/image/raw/master/docs/2022-03/202203052247985.png)
 
 3. 点击菜单栏 Help(帮助) -> Eval Reset，勾选以下选项，点击 Reset
 
-![image-20220305225516400](https://gitee.com/huuu5/image/raw/master/docs/2022-03/202203052255456.png)
+![image-20220305225516400](https://gitee.com/mhxs5555/image/raw/master/docs/2022-03/202203052255456.png)
 
 4. 无限试用完成
 
@@ -121,10 +121,10 @@ Java HotSpot(TM) 64-Bit Server VM (build 17.0.1+12-LTS-39, mixed mode, sharing)
 
 选择本地Maven目录
 
-![image-20220305225904550](https://gitee.com/huuu5/image/raw/master/docs/2022-03/202203052259610.png)
+![image-20220305225904550](https://gitee.com/mhxs5555/image/raw/master/docs/2022-03/202203052259610.png)
 
 ### Tomcat 配置
 
 点击 **`+`** ，配置本地Tomcat路径
 
-![image-20220305230206437](https://gitee.com/huuu5/image/raw/master/docs/2022-03/202203052302492.png)
+![image-20220305230206437](https://gitee.com/mhxs5555/image/raw/master/docs/2022-03/202203052302492.png)

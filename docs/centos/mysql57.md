@@ -1,22 +1,24 @@
-## MySQL 5.7 安装
+# 安装 MySQL 5.7 
+
+## 下载
 
 上传安装包到服务器，[下载地址](https://downloads.mysql.com/archives/community/)
 
-![image-20220305191813757](https://gitee.com/huuu5/image/raw/master/blog/2022/03/202203051918801.png)
+![image-20220305191813757](https://gitee.com/mhxs5555/image/raw/master/blog/2022/03/202203051918801.png)
 
 ## 安装
 
 1. 查看已安装的MySQL
 
    ```bash
-   $ sudo rpm -qa|grep mariadb
-   $ sudo rpm -qa|grep mysql
+   sudo rpm -qa|grep mariadb
+   sudo rpm -qa|grep mysql
    ```
 
 2. 如果存在已安装MySQL，先全部卸载
 
    ```bash
-   $ sudo rpm -e --nodeps mariadb-common-5.7.32-1.el7.x86_64
+   sudo rpm -e --nodeps mariadb-common-5.7.32-1.el7.x86_64
    ```
 
 3. 解压安装包，会得到以下文件
@@ -31,16 +33,16 @@
 4. 安装，安装顺序不能乱
 
    ```bash
-   $ sudo rpm -ivh mysql-community-common-5.7.32-1.el7.x86_64.rpm
-   $ sudo rpm -ivh mysql-community-libs-5.7.32-1.el7.x86_64.rpm
-   $ sudo rpm -ivh mysql-community-client-5.7.32-1.el7.x86_64.rpm
-   $ sudo rpm -ivh mysql-community-server-5.7.32-1.el7.x86_64.rpm
+   sudo rpm -ivh mysql-community-common-5.7.32-1.el7.x86_64.rpm
+   sudo rpm -ivh mysql-community-libs-5.7.32-1.el7.x86_64.rpm
+   sudo rpm -ivh mysql-community-client-5.7.32-1.el7.x86_64.rpm
+   sudo rpm -ivh mysql-community-server-5.7.32-1.el7.x86_64.rpm
    ```
 
 5. 启动MySQL
 
    ```bash
-   $ sudo systemctl start mysqld
+   sudo systemctl start mysqld
    ```
 
 6. 查找root初始密码
@@ -112,13 +114,13 @@
 8. 登录MySQL
 
    ```bash
-   $ sudo mysql -uroot -p
+   sudo mysql -uroot -p
    ```
 
 ## 配置
 
 ```bash
-$ sudo vim /etc/my.cnf
+sudo vim /etc/my.cnf
 ```
 
 具体配置
@@ -160,12 +162,12 @@ sql_mode=STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_
 ## 重启 MySQL
 
 ```bash
-$ sudo systemctl restart mysqld
+sudo systemctl restart mysqld
 ```
 
 ## 设置开机启动
 
 ```bash
-$ sudo systemctl enable mysqld
+sudo systemctl enable mysqld
 ```
 

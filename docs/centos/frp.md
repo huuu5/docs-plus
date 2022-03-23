@@ -12,11 +12,11 @@
 
 ```bash
 # 创建配置目录
-$ sudo mkdir -p /etc/frp
+sudo mkdir -p /etc/frp
 # 创建配置文件
-$ sudo touch /etc/frp/frps.ini
+sudo touch /etc/frp/frps.ini
 # 编辑配置文件
-$ sudo vim /etc/frp/frps.ini
+sudo vim /etc/frp/frps.ini
 ```
 
 复制下面内容
@@ -98,6 +98,8 @@ docker logs frpc
 
 ## 配置
 
+### 官方文档
+
 [服务端详细配置文档](https://gofrp.org/docs/reference/server-configures/)
 
 [客户端详细配置文档](https://gofrp.org/docs/reference/client-configures/)
@@ -149,3 +151,10 @@ local_port = 3389
 remote_port = 63389
 ```
 
+
+
+## FAQ
+
+**Q：配置全都正确就是访问不了服务？**
+
+A：检查云主机安全组有无开放对应端口，检查服务器防火墙有无开放对应的端口
